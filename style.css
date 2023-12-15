@@ -1,0 +1,75 @@
+body{
+    background-color: transparent;
+    background-image: url(IMG/bleu.avif);
+    background-size: cover;
+}
+
+
+nav{
+    background-color: transparent;
+    background-image: url(IMG/bleu.avif);
+    background-size: cover;
+padding:20px;
+margin:50px;
+
+border: 2px solid black;
+
+word-spacing: 5px;
+
+}
+
+.img{
+width:200px;
+padding : 20px;
+
+
+}
+
+.logo{
+width:50px;
+
+
+
+}
+
+footer{
+    background-color: transparent;
+    background-image: url(IMG/bleu.avif);
+    background-size: cover;
+    border: 2px solid black;
+text-align: center;
+
+
+}
+
+ul{
+text-align: right;
+
+    
+}
+
+
+ul li{
+display:inline-flex;
+padding:20px;
+font-family: 'Verdana';
+color:#ba84f3;
+text-emphasis-color: red;
+font-size:30px;
+}
+
+section{
+    background-color: transparent;
+    background-image: url(IMG/bleu.avif);
+    background-size: cover;
+    border: 2px solid black;
+    margin:50px;
+    padding:10px;
+
+}
+
+h1{
+margin : 5px;
+color:#ba84f3;
+
+}
