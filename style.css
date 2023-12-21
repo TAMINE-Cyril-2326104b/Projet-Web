@@ -13,15 +13,10 @@ nav{
 .img{
     width:200px;
     padding : 20px;
-
-
 }
 
 .logo{
     width:50px;
-
-
-
 }
 
 footer{
@@ -34,8 +29,6 @@ footer{
 
 ul{
     text-align: right;
-
-    
 }
 
 
@@ -53,7 +46,6 @@ section{
     border: 2px solid black;
     margin:50px;
     padding:10px;
-
 }
 
 h1{
@@ -73,6 +65,7 @@ header{
     word-spacing: 5px;
     flex-wrap:wrap;
 }
+
 a:visited{
     text-decoration: none;
     color:#ba84f3;
