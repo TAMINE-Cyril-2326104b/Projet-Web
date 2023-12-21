@@ -2,31 +2,23 @@ body{
     background-color: transparent;
     background-image: url(IMG/bleu.avif);
     background-size: cover;
+    color:#ba84f3;
 }
 
 
 nav{
     background-color: transparent;
-    background-image: url(IMG/bleu.avif);
-    background-size: cover;
-padding:20px;
-margin:50px;
-
-border: 2px solid black;
-
-word-spacing: 5px;
-
 }
 
 .img{
-width:200px;
-padding : 20px;
+    width:200px;
+    padding : 20px;
 
 
 }
 
 .logo{
-width:50px;
+    width:50px;
 
 
 
@@ -37,25 +29,23 @@ footer{
     background-image: url(IMG/bleu.avif);
     background-size: cover;
     border: 2px solid black;
-text-align: center;
+    text-align: center;
 
 
 }
 
 ul{
-text-align: right;
+    text-align: right;
 
     
 }
 
 
 ul li{
-display:inline-flex;
-padding:20px;
-font-family: 'Verdana';
-color:#ba84f3;
-text-emphasis-color: red;
-font-size:30px;
+    display:inline-flex;
+    padding:20px;
+    font-family: 'Verdana';
+    font-size:30px;
 }
 
 section{
@@ -69,7 +59,35 @@ section{
 }
 
 h1{
-margin : 5px;
-color:#ba84f3;
-
+    margin : 5px;
+    width:100vw;
 }
+
+
+
+header{
+    border:2px solid black;
+    background-image: url(IMG/bleu.avif);
+    background-size: cover;
+    padding:20px;
+    margin:50px;
+    display:flex;
+    word-spacing: 5px;
+    flex-wrap:wrap;
+}
+a:visited{
+    text-decoration: none;
+    color:#ba84f3;
+}
+  
+
+a{
+    text-decoration: none; 
+} 
+
+a:hover {
+    text-decoration: none;
+  }
+
+
+
