@@ -13,10 +13,15 @@ nav{
 .img{
     width:200px;
     padding : 20px;
+
+
 }
 
 .logo{
     width:50px;
+
+
+
 }
 
 footer{
@@ -25,10 +30,14 @@ footer{
     background-size: cover;
     border: 2px solid black;
     text-align: center;
+
+
 }
 
 ul{
     text-align: right;
+
+    
 }
 
 
@@ -37,6 +46,7 @@ ul li{
     padding:20px;
     font-family: 'Verdana';
     font-size:30px;
+    border: 2px solid black;
 }
 
 section{
@@ -46,6 +56,7 @@ section{
     border: 2px solid black;
     margin:50px;
     padding:10px;
+
 }
 
 h1{
@@ -65,7 +76,6 @@ header{
     word-spacing: 5px;
     flex-wrap:wrap;
 }
-
 a:visited{
     text-decoration: none;
     color:#ba84f3;
@@ -77,8 +87,13 @@ a{
 } 
 
 a:hover {
-    color:white
+    text-decoration: none;
   }
 
+
+.actif{
+border:2px solid black;
+
+}
 
 
