@@ -1,53 +1,58 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <title> Anime Central Hub</title>
-    <meta charset="UTF-8">
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/form.css" rel="stylesheet" />
-    <link rel="apple-touch-icon" sizes="180x180" href="IMG/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="IMG/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="IMG/favicon-16x16.png">
-    <link rel="manifest" href="IMG/site.webmanifest">
-</head>
+
+    <head>
+        <title> Anime Central Hub</title>
+        <meta charset="UTF-8">
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/form.css" rel="stylesheet" />
+        <link rel="apple-touch-icon" sizes="180x180" href="IMG/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="IMG/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="IMG/favicon-16x16.png">
+        <link rel="manifest" href="IMG/site.webmanifest">
+    </head>
 
 
-<body>
+    <body>
 
+<<<<<<< HEAD
     <header>    <h1> Anime Central Hub</h1>
         <a href="anime.html"><img alt="Logo site" src="IMG/logo.png"></a> 
+=======
+        <header>    <h1> Anime Central Hub</h1>
+            <img alt="Logo site" src="IMG/logo.png">
+            <nav> 
+                <ul>
+                    <li><a href="anime.html"> Anime </a></li> 
+                    <li>Personnage</li>
+                    <li><a href="formulaire.html"> Formulaire </a></li> 
+                    <li class="actif"><a href="connexion.html">Se connecter</a></li>
+                    <li><a href="apropos.html"> A Propos</a></li>  
+                </ul>
+            </nav>
+        </header>
+>>>>>>> e72d8893453d0cf194104dd6beb73823400d9bf4
 
-        <nav> 
-            <ul>
-                <li><a href="anime.html"> Anime </a></li> 
-                <li>Personnage</li>
-                <li>Formulaire</li> 
-                <li class="actif"><a href="connexion.html">Se connecter</a></li>
-                <li><a href="apropos.html"> A Propos</a></li>  
-            </ul>
-        </nav>
-    </header>
+        <section> <h1>Se connecter</h1>
+            <form action="">
+                <label for="email">Email</label> <br> 
+                <input type="email" id="email" required="required"> <br>
+                <label for="pwd">Mot de passe</label> <br> 
+                <input type="password" id="pwd" required="required"> <br>
+                <br> <br>
+                <input type="submit" value="Valider">
+                <input type="reset" value="Effacer">
+                <br>
+                <h2>Vous n'avez pas de compte ? <a href="inscription.html">S'inscrire</a></h2>
+            </form>
+        </section>
 
-    <section> <h1>Se connecter</h1>
-        <form action="">
-            <label for="email">Email</label> <br> 
-            <input type="email" id="email" required="required"> <br>
-            <label for="pwd">Mot de passe</label> <br> 
-            <input type="password" id="pwd" required="required"> <br>
-            <br> <br>
-            <input type="submit">
-            <input type="reset">
-            <br>
-            <h2>Vous n'avez pas de compte ? <a href="inscription.html">S'inscrire</a></h2>
-        </form>
-    </section>
+        <footer><h1>Nous contacter </h1>  <br>
+            <img class="logo" alt="Logo Youtube" src="https://cdn.freebiesupply.com/logos/large/2x/youtube-icon-logo-png-transparent.png">
+            <img class="logo" alt="Logo Instagram" src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png">
+            <img class="logo" alt="Logo X" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
+        </footer>
 
-
-    <footer><h1>Nous contacter </h1>  <br>
-        <img class="logo" alt="Logo Youtube" src="https://cdn.freebiesupply.com/logos/large/2x/youtube-icon-logo-png-transparent.png">
-        <img class="logo" alt="Logo Instagram" src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c521.png">
-        <img class="logo" alt="Logo X" src="https://about.twitter.com/content/dam/about-twitter/x/brand-toolkit/logo-black.png.twimg.1920.png">
-    </footer>
-</body>
+    </body>
 
 </html>
