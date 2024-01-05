@@ -4,6 +4,7 @@ body{
     background-image: url(../IMG/bleu.avif);
     background-size: cover;
     color:#ba84f3;
+    margin: 0 auto;
 }
 
 h1.nom{
@@ -67,7 +68,6 @@ header{
     background-image: url(../IMG/bleu.avif);
     background-size: cover;
     padding:20px;
-    margin:50px;
     display:flex;
     word-spacing: 5px;
     flex-wrap:wrap;
