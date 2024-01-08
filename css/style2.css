@@ -10,6 +10,13 @@ h1.nom{
     color: white;
 }
 
+input[type="search"]{
+    width: 200px;
+    height: 20px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
 nav{
     background-color: transparent;
 }
@@ -78,4 +85,11 @@ nav li:hover{
     color: white;
 }
 
+h2{
+    margin-left: 20px;
+    color: white;
+}
 
+h3{
+    color: rgb(220, 220, 220);
+}
