@@ -1,4 +1,8 @@
 .comment{
     background-color: #1C2942;
     color: white;
+    padding: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 6px;
 }
