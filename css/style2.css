@@ -1,4 +1,6 @@
-body{
+/*CSS plus général sur le site Internet, contenant les bases du site (fond, navigation...)*/
+
+body{ /* Permet de changer la couleur du texte, du fond, la police sur l'intégralité du site */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
     background-color: #0B162C;
     color: #5FC2BA;
@@ -16,6 +18,8 @@ nav{
     background-color: transparent;
 }
 
+/* Trois classes d'images, l'une pour les affiches d'animés, l'une pour le logo et la dernière pour les icones en pied de page */ 
+
 .img{
     width:200px;
     padding : 20px;
@@ -29,6 +33,8 @@ nav{
     height:40px;
 }
 
+/*CSS du haut de page*/
+
 header{
     background-color: black;
     padding:20px;
@@ -36,6 +42,8 @@ header{
     word-spacing: 5px;
     flex-wrap:wrap;
 }
+
+/*CSS du pied de page*/
 
 footer{
     background-color: black;
