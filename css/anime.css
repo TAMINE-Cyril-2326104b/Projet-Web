@@ -1,5 +1,5 @@
 
-.comment{
+.comment{ /* Représente les commentaires de la communauté*/
     background-color: #1C2942;
     color: white;
     padding: 20px;
@@ -9,7 +9,7 @@
 }
 
 
-.description{
+.description{ /* Représente les informations essentielles sur un animé, mises sur la droite*/
     float: right;
     background-color: #0B162C;
     border : 2px solid black;
@@ -17,7 +17,7 @@
     margin: 20px;
 }
 
-.personnage{
+.personnage{ 
     height: 150px;
     border-radius: 100px;
     display: inline;
