@@ -9,7 +9,7 @@
 }
 
 
-.description{ /* Représente les informations essentielles sur un animé, mises sur la droite*/
+.description { /* Représente les informations essentielles sur un animé, mises sur la droite*/
     float: right;
     background-color: #0B162C;
     border : 2px solid black;
