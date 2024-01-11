@@ -1,0 +1,25 @@
+/*CSS corrrespondant aux parties du site sur les animés, se trouvant dans le dossier Anime */
+.comment{ /* Représente les commentaires de la communauté*/
+    background-color: whitesmoke;
+    color: white;
+    padding: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 6px;
+}
+
+
+.description { /* Représente les informations essentielles sur un animé, mises sur la droite*/
+    float: right;
+    background-color: #0B162C;
+    border : 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+.personnage{ 
+    height: 150px;
+    border-radius: 100px;
+    display: inline;
+    margin: 10px;
+}

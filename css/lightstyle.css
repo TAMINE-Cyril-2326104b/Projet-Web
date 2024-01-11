@@ -1,0 +1,109 @@
+/*CSS plus général sur le site Internet, contenant les bases du site (fond, navigation...)*/
+
+body{ /* Permet de changer la couleur du texte, du fond, la police sur l'intégralité du site */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+    background-color: whitesmoke;
+    color: #5FC2BA;
+    margin: 0 auto;
+}
+
+input[type="search"]{
+    width: 200px;
+    height: 20px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+nav{
+    background-color: transparent;
+}
+
+/* Trois classes d'images, l'une pour les affiches d'animés, l'une pour le logo et la dernière pour les icones en pied de page */ 
+
+.img{
+    width:200px;
+    padding : 20px;
+
+}
+.logo{
+    width: 100px;
+}
+
+.icone{
+    height:40px;
+}
+
+/*CSS du haut de page*/
+
+header{
+    background-color: #1C2942;
+    padding:20px;
+    display:flex;
+    word-spacing: 5px;
+    flex-wrap:wrap;
+}
+
+/*CSS du pied de page*/
+
+footer{
+    background-color: #1C2942;
+    text-align: center;
+}
+
+
+
+ul li{
+    display:inline-flex;
+    padding:20px;
+    font: size 20px;
+}
+
+section{
+    margin:20px;
+    padding:10px;
+}
+
+h1{
+    margin : 5px;
+    width:100vw;
+}
+
+a{
+    text-decoration: none;
+    color: #5FC2BA;
+} 
+
+nav li:hover{
+    text-decoration: none;
+    background-color: #0B162C;
+}
+
+.actif{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: white;
+}
+
+h2{
+    margin-left: 20px;
+    color: black;
+}
+
+h3, h4{
+    color: black;
+}
+
+.ancre{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    right: 20px;
+    bottom: 120px;
+}
+
+p{
+    color: #1C2942;
+}
