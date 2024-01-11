@@ -20,11 +20,16 @@ nav{
 
 /* Trois classes d'images, l'une pour les affiches d'animés, l'une pour le logo et la dernière pour les icones en pied de page */ 
 
-.img{
+.affiche{
     width:200px;
     padding : 20px;
-
+    transition-duration: 150ms;
 }
+
+.affiche, .logo, .icone :hover{
+    transform: scale(1.1);
+}
+
 .logo{
     width: 100px;
 }
