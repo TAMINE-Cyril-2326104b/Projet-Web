@@ -14,21 +14,24 @@
     display: flex; 
     flex-flow: column wrap; 
     flex-wrap:wrap;
-
-    
+    float:right; 
     background-color: #0B162C;
     border : 2px solid black;
     padding: 10px;
     margin: 20px;
 }
 
-.texte{
+.parent{
     display:flex;
-    width:87vw;
-
-    flex-direction: column;
 
 
+}
+
+footer{
+display:flex;
+flex-wrap:wrap;
+justify-content: center;
+align-items: flex-end;
 
 
 }
