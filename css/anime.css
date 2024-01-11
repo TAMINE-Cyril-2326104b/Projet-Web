@@ -10,11 +10,27 @@
 
 
 .description { /* Représente les informations essentielles sur un animé, mises sur la droite*/
-    float: right;
+    width:13vw;
+    display: flex; 
+    flex-flow: column wrap; 
+    flex-wrap:wrap;
+
+    
     background-color: #0B162C;
     border : 2px solid black;
     padding: 10px;
     margin: 20px;
+}
+
+.texte{
+    display:flex;
+    width:87vw;
+
+    flex-direction: column;
+
+
+
+
 }
 
 .personnage{ 
