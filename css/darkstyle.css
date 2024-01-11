@@ -26,7 +26,13 @@ nav{
     transition-duration: 150ms;
 }
 
-.affiche, .logo, .icone :hover{
+.affiche:hover{
+    transform: scale(1.1);
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+.icone:hover{
     transform: scale(1.1);
 }
 
