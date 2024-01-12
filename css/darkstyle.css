@@ -128,23 +128,26 @@ p{
 }
 
 /*CSS corrrespondant aux parties du site sur les animés, se trouvant dans le dossier Anime */
-.comment{ /* Représente les commentaires de la communauté*/
-    background-color: rgb(216, 216, 216);
-    color: #1C2942;
+/CSS corrrespondant aux parties du site sur les animés, se trouvant dans le dossier Anime/
+
+.comment{ /* Représente les commentaires de la communauté/
+    background-color: #172542;
+    color: white;
     padding: 20px;
     border-color: black;
     border-width: 2px;
     border-radius: 6px;
 }
 
-.description { /* Représente les informations essentielles sur un animé, mises sur la gauche*/
+
+.description { / Représente les informations essentielles sur un animé, mises sur la gauche*/
     width:12vw;
     display: flex; 
     flex-flow: column wrap; 
     flex-wrap:wrap;
     float:left; 
-    background-color: rgb(216, 216, 216);
-    border : 2px solid #1C2942;
+    background-color: #0B162C;
+    border : 2px solid black;
     padding: 10px;
     margin: 20px;
 }
@@ -157,6 +160,7 @@ p{
         width: 90%;
     }
 }
+
 .parent{
     display:flex;
 }
