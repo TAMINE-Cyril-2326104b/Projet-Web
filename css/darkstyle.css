@@ -18,6 +18,23 @@ nav{
     background-color: transparent;
 }
 
+ul li{
+    display:inline-flex;
+    padding:20px;
+    font: size 20px;
+}
+
+#themeChanger{
+    padding: 15px;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+#themechanger:hover{
+    color: white;
+    background-color: #1C2942;
+}
+
 /* Trois classes d'images, l'une pour les affiches d'animés, l'une pour le logo et la dernière pour les icones en pied de page */ 
 
 .affiche{
@@ -61,20 +78,6 @@ header{
 footer{
     background-color: black;
     text-align: center;
-}
-
-
-
-ul li{
-    display:inline-flex;
-    padding:20px;
-    font: size 20px;
-}
-
-button{
-    display:inline-flex;
-    padding:20px;
-    font: size 20px;
 }
 
 section{
