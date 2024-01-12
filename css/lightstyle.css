@@ -175,7 +175,7 @@ iframe{
 }
 
 /*CSS contenant la connexion, l'inscription ou encore le formulaire*/
-section {
+.form {
     border: 0;
     box-shadow: 0 0 3px;
     border-radius: 6px;
