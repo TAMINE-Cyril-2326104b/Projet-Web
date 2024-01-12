@@ -9,7 +9,7 @@
 }
 
 
-.description { /* Représente les informations essentielles sur un animé, mises sur la droite*/
+.description { /* Représente les informations essentielles sur un animé, mises sur la gauche*/
     width:13vw;
     display: flex; 
     flex-flow: column wrap; 
