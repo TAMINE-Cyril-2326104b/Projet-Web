@@ -3,7 +3,7 @@
 body{ /* Permet de changer la couleur du texte, du fond, la police sur l'intégralité du site */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
     background-color: #0B162C;
-    color: #ffffff;
+    color: #5FC2BA;
     margin: 0 auto;
 }
 
@@ -109,9 +109,6 @@ h2{
     color: white;
 }
 
-p{
-    color:#ffffff;
-}
 h3{
     color: rgb(220, 220, 220);
 }
@@ -131,7 +128,7 @@ p{
 }
 
 /*CSS corrrespondant aux parties du site sur les animés, se trouvant dans le dossier Anime */
-/CSS corrrespondant aux parties du site sur les animés, se trouvant dans le dossier Anime/
+
 
 .comment{ /* Représente les commentaires de la communauté*/
     background-color: #172542;
@@ -143,7 +140,7 @@ p{
 }
 
 
-.description { / Représente les informations essentielles sur un animé, mises sur la gauche*/
+.description {
     width:12vw;
     display: flex; 
     flex-flow: column wrap; 
