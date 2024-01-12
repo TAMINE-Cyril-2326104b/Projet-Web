@@ -183,6 +183,7 @@ iframe{
     color: #1C2942;
     width: 400px;
     margin: 20px auto;
+    overflow: auto;
 }
 
 form {
