@@ -21,7 +21,7 @@ nav{
 ul li{
     display:inline-flex;
     padding:20px;
-    font: size 20px;
+    font-size : 20px;
 }
 
 a{
@@ -129,8 +129,7 @@ section {
     border: 0;
     box-shadow: 0 0 3px;
     border-radius: 6px;
-    box-shadow: 0 0 5px px rgba(0,0,0,2);
-    color:ba84f3;
+    box-shadow: 0 0 5px rgba(0,0,0,2);
     width: 400px;
     margin: 20px auto;
 }
@@ -148,9 +147,9 @@ label{
 }
 
 input {
-    padding: 5 px;
-    outline: 0;
-    border: 1 px solid rgba(0,0,0,4);
+    padding: 5px;
+    outline: 0px;
+    border: 1px solid rgba(0,0,0,4);
 }
 
 input:focus {
@@ -169,7 +168,7 @@ input[type="submit"]{
 }
 
 hr{
-    margin : 10 px 0;
+    margin : 10px;
 }
 
 p a:hover {
