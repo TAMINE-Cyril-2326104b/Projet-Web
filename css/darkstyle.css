@@ -142,7 +142,7 @@ p{
 
 
 .description {
-    width:40vw;
+    width:60vw;
     display: flex; 
     flex-flow: column wrap; 
     flex-wrap:wrap;
