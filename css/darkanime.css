@@ -138,7 +138,7 @@ h3{
 
 
 .description { /* Représente les informations essentielles sur un animé, mises sur la gauche*/
-    width:25vw;
+    width:100vw;
     display: flex; 
     flex-flow: column wrap; 
     flex-wrap:wrap;
