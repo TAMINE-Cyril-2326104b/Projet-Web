@@ -112,6 +112,7 @@ h2{
 h3{
     color: rgb(220, 220, 220);
 }
+
 .ancre{
     width: 50px;
     height: 50px;
@@ -124,11 +125,11 @@ h3{
 }
 
 p{
-    color: #1C2942;
+    color: #5FC2BA;
 }
 
 /*CSS corrrespondant aux parties du site sur les animés, se trouvant dans le dossier Anime */
-/CSS corrrespondant aux parties du site sur les animés, se trouvant dans le dossier Anime/
+
 
 .comment{ /* Représente les commentaires de la communauté*/
     background-color: #172542;
@@ -140,7 +141,7 @@ p{
 }
 
 
-.description { / Représente les informations essentielles sur un animé, mises sur la gauche*/
+.description {
     width:12vw;
     display: flex; 
     flex-flow: column wrap; 
