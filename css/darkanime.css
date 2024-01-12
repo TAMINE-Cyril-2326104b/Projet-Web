@@ -11,7 +11,7 @@
 
 .description { /* Représente les informations essentielles sur un animé, mises sur la gauche*/
     width:12vw;
-    display: grid; 
+    display: flex; 
     flex-flow: column wrap; 
     flex-wrap:wrap;
     float:left; 
@@ -25,11 +25,10 @@
 .img{
     width:200px;
 }
-@media screen and( max-width: 400px) {
-    .img {
-        width: 100px;
+@media screen and (max-width:800px) {
+    .description {
+        overflow: auto;
     } 
-    
 } 
  
 
