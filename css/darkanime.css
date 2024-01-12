@@ -21,9 +21,10 @@
     margin: 20px;
 }
 
-/*MARCHE PAS .img{
+.img{
     width:200px;
 }
+/*MARCHE PAS 
 @media screen and( max-width: 400px) {
     .img {
         width: 100px;
