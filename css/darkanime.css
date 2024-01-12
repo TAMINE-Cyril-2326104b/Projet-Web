@@ -24,7 +24,7 @@
 .img{
     width:200px;
 }
-@media screen and(max-width: 2000px) {
+@media screen and(max-width: 10000px) {
     .img {
         width: 5000px;
     } 
