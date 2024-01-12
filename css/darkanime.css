@@ -24,8 +24,8 @@
 .img{
     width:5000px;
 }
-@media screen and(max-width: 3000px) {
-    .img {
+@media screen and( max: 3000px) {
+    img {
         width: 100px;
     } 
     
