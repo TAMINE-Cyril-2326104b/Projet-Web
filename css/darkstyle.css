@@ -24,15 +24,26 @@ ul li{
     font: size 20px;
 }
 
+a{
+    text-decoration: none;
+    color: #5FC2BA;
+} 
+
+nav li:hover{
+    text-decoration: none;
+    background-color: #1C2942;
+}
+
+.actif{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: white;
+}
+
 #themeChanger{
     padding: 15px;
     border-radius: 40px;
     margin: 20px;
-}
-
-#themechanger:hover{
-    color: white;
-    background-color: #1C2942;
 }
 
 /* Trois classes d'images, l'une pour les affiches d'animés, l'une pour le logo et la dernière pour les icones en pied de page */ 
@@ -89,22 +100,6 @@ section{
 h1{
     margin : 5px;
     width:100vw;
-}
-
-a{
-    text-decoration: none;
-    color: #5FC2BA;
-} 
-
-nav li:hover{
-    text-decoration: none;
-    background-color: #1C2942;
-}
-
-.actif{
-    text-transform: uppercase;
-    text-decoration: underline;
-    color: white;
 }
 
 h2{

@@ -18,6 +18,35 @@ nav{
     background-color: transparent;
 }
 
+ul li{
+    display:inline-flex;
+    padding:20px;
+    font: size 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #5FC2BA;
+} 
+
+nav li:hover{
+    text-decoration: none;
+    background-color: #0B162C;
+}
+
+.actif{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: white;
+}
+
+#themeChanger{
+    padding: 15px;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+
 /* Trois classes d'images, l'une pour les affiches d'animés, l'une pour le logo et la dernière pour les icones en pied de page */ 
 
 .affiche, .img{
@@ -61,14 +90,6 @@ footer{
     text-align: center;
 }
 
-
-
-ul li{
-    display:inline-flex;
-    padding:20px;
-    font: size 20px;
-}
-
 section{
     margin:20px;
     padding:10px;
@@ -77,22 +98,6 @@ section{
 h1{
     margin : 5px;
     width:100vw;
-}
-
-a{
-    text-decoration: none;
-    color: #5FC2BA;
-} 
-
-nav li:hover{
-    text-decoration: none;
-    background-color: #0B162C;
-}
-
-.actif{
-    text-transform: uppercase;
-    text-decoration: underline;
-    color: white;
 }
 
 h2{
