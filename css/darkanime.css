@@ -21,15 +21,15 @@
     margin: 20px;
 }
 
-.img{
+/*ca marche pas .img{
     width:200px;
 }
 @media screen and( max-width: 800px) {
-    img {
-        width: 1px;
+    .img {
+        width: 50px;
     } 
     
-} 
+}*/ 
     
 
 .parent{
