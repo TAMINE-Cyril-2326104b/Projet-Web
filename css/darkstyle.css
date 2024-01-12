@@ -179,11 +179,11 @@ iframe{
 }
 
 /*CSS contenant la connexion, l'inscription ou encore le formulaire*/
-section {
+.form {
     border: 0;
     box-shadow: 0 0 3px;
     border-radius: 6px;
-    box-shadow: 0 0 5px rgba(0,0,0,2);
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
     width: 400px;
     margin: 20px auto;
 }
@@ -203,7 +203,7 @@ label{
 input {
     padding: 5px;
     outline: 0px;
-    border: 1px solid rgba(0,0,0,4);
+    border: 1px solid rgba(0,0,0,0.4);
 }
 
 input:focus {
