@@ -5,7 +5,7 @@
         <title> Inscription - Anime CentralHub </title> <!--Titre de la page en haut de l'onglet-->
         <meta name="description" content="Tu ne possèdes pas de compte sur Anime CentralHub ? Inscrit toi gratuitement !"> <!-- Balise meta description -->
         <meta charset="UTF-8">
-        <link id="theme" href="css/darkform.css" rel="stylesheet">
+        <link id="theme" href="css/darkstyle.css" rel="stylesheet">
         <link rel="apple-touch-icon" sizes="180x180" href="IMG/apple-touch-icon.png"> <!--Mise en place du favicon-->
         <link rel="icon" type="image/png" sizes="32x32" href="IMG/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="IMG/favicon-16x16.png">
@@ -28,15 +28,15 @@
             <button id="themeChanger"> Changer mode </button>
         </header>
 
-        <section> <h2>S'inscrire</h2>
+        <section class="form"> <h2>S'inscrire</h2>
             <hr>
             <form action="mailto:estelle.grimaudamu@gmail.com" method="post"> <!--Mise en place d'un formulaire -->
                 <label for="username">Pseudo</label> <!--Pseudo-->
-                <input type="text" name="username" required="required"> <!--Le pseudo est obligatoire-->
+                <input id="username" type="text" name="username" required="required"> <!--Le pseudo est obligatoire-->
                 <label for="email">Email</label> <!--Email-->
-                <input type="email" name="email" required="required">  <!--L'email est obligatoire-->
+                <input id="email" type="email" name="email" required="required">  <!--L'email est obligatoire-->
                 <label for="password">Mot de passe</label> <!--Mot de passe-->
-                <input type="password" name="password" required="required"> <!--Le mot de passe est obligatoire-->
+                <input id="password" type="password" name="password" required="required"> <!--Le mot de passe est obligatoire-->
                 <input type="submit" value="S'inscrire">
                 <p>Vous avez déjà un compte ? <a href="connexion.html">Se connecter</a></p> <!--Redirige vers la page de connexion en cas de compte-->
             </form>
