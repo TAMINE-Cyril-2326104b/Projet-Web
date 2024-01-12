@@ -25,7 +25,7 @@
 .img{
     width:200px;
 }
-@media screen and( max-resolution: 400ppp) {
+@media screen and (max-width:400px) {
     .description {
         overflow: auto;
     } 
