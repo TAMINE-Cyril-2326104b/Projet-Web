@@ -26,10 +26,9 @@
     width:200px;
 }
 @media screen and( max-width: 400px) {
-    .img {
-        width: 100px;
+    .description {
+        overflow: auto;
     } 
-    
 } 
  
 
