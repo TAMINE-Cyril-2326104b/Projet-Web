@@ -173,3 +173,55 @@ iframe{
     width: 560px;
     height: 315px;
 }
+
+/*CSS contenant la connexion, l'inscription ou encore le formulaire*/
+section {
+    border: 0;
+    box-shadow: 0 0 3px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,2);
+    color: #1C2942;
+    width: 400px;
+    margin: 20px auto;
+}
+
+form {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+label{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+input {
+    padding: 5px;
+    outline: 0;
+    border: 1px solid rgba(0,0,0,4);
+}
+
+input:focus {
+    border: 2px solid #5FC2BA;
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    background-color: rgb(216, 216, 216);
+    color: #1C2942;
+    cursor: pointer;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: white;
+    height: 30px;
+}
+
+hr{
+    margin : 10px;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
