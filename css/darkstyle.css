@@ -5,6 +5,7 @@ body{ /* Permet de changer la couleur du texte, du fond, la police sur l'intégr
     background-color: #0B162C;
     color: #5FC2BA;
     margin: 0 auto;
+    font-size: 20px;
 }
 
 input[type="search"]{
