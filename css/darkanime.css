@@ -10,7 +10,7 @@
 
 
 .description { /* Représente les informations essentielles sur un animé, mises sur la gauche*/
-    width:25vw;
+    width:12vw;
     display: flex; 
     flex-flow: column wrap; 
     flex-wrap:wrap;
@@ -19,7 +19,7 @@
     border : 2px solid black;
     padding: 10px;
     margin: 20px;
-    overflow: auto;
+
 }
 
 .img{
