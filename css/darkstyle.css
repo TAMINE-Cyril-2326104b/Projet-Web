@@ -54,8 +54,6 @@ nav li:hover{
     transition-duration: 150ms;
 }
 
-
-
 .affiche:hover{
     transform: scale(1.1);
 }
@@ -89,6 +87,10 @@ header{
 footer{
     background-color: black;
     text-align: center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 section{

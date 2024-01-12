@@ -88,6 +88,10 @@ header{
 footer{
     background-color: #1C2942;
     text-align: center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 section{
