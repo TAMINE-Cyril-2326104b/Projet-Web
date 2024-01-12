@@ -19,7 +19,7 @@
     border : 2px solid black;
     padding: 10px;
     margin: 20px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .img{
@@ -31,7 +31,7 @@
     } 
     
 } 
-*/  
+ 
 
 .parent{
     display:flex;
