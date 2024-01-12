@@ -25,12 +25,11 @@
 .img{
     width:200px;
 }
-@media screen and (max-width:1000px) {
-    .description {
-        overflow: auto;
-    } 
-} 
- 
+
+.information{
+    width: 88vw;
+    float : right;
+}
 
 .parent{
     display:flex;
