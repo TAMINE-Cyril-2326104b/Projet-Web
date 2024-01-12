@@ -25,10 +25,11 @@
 .img{
     width:200px;
 }
-
-.information{
-    width: 88vw;
-    float : right;
+@media screen and (max-width:1000px) {
+    .img {
+        width: 20%;
+    }
+    
 }
 
 .parent{
