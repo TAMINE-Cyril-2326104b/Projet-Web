@@ -21,7 +21,7 @@ nav{
 ul li{
     display:inline-flex;
     padding:20px;
-    font: size 20px;
+    font-size : 20px;
 }
 
 a{
