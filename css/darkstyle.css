@@ -26,10 +26,7 @@ nav{
     transition-duration: 150ms;
 }
 
-.img{
-    width:10vw;
-    
-}
+
 
 .affiche:hover{
     transform: scale(1.1);
