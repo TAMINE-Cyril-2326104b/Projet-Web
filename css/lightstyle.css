@@ -139,7 +139,7 @@ p{
 }
 
 .description { /* Représente les informations essentielles sur un animé, mises sur la gauche*/
-    width:60vw;
+    width:12vw;
     display: flex; 
     flex-flow: column wrap; 
     flex-wrap:wrap;
@@ -183,7 +183,6 @@ iframe{
     color: #1C2942;
     width: 400px;
     margin: 20px auto;
-    overflow: auto;
 }
 
 form {
