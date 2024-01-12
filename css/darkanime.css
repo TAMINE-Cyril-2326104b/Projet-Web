@@ -22,11 +22,11 @@
 }
 
 .img{
-    width:5000px;
+    width:200px;
 }
-@media screen and( max: 3000px) {
+@media screen and( max-width: 800px) {
     img {
-        width: 100px;
+        width: 50px;
     } 
     
 } 
