@@ -126,6 +126,7 @@ h3{
 
 
 /*CSS corrrespondant aux parties du site sur les animés, se trouvant dans le dossier Anime */
+
 .comment{ /* Représente les commentaires de la communauté*/
     background-color: #172542;
     color: white;
@@ -169,4 +170,9 @@ h3{
     border-radius: 100px;
     display: inline;
     margin: 10px;
+}
+
+iframe{
+    width: 560px;
+    height: 315px;
 }
