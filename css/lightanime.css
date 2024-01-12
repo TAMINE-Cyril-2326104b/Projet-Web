@@ -153,12 +153,11 @@ p{
 .img{
     width:200px;
 }
-@media screen and (max-width:1000px) {
-    .description {
-        overflow: auto;
-    } 
-} 
-
+@media screen and (max-width:1500px) {
+    .img {
+        width: 90%;
+    }
+}
 .parent{
     display:flex;
 }
